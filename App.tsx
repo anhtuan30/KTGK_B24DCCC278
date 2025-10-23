@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import PostList from "./Components/PostList";
 import PostDetail from "./Components/PostDetail";
 import PostForm from "./Components/PostForm";
-import { Post } from "./types";
+import { Post } from "./types/Post";
 
 function App() {
   const [posts, setPosts] = useState<Post[]>([
