@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import Navbar from "./components/Navbar";
-import PostList from "./components/PostList";
-import PostDetail from "./components/PostDetail";
-import PostForm from "./components/PostForm";
+import Navbar from "./Components/Navbar";
+import PostList from "./Components/PostList";
+import PostDetail from "./Components/PostDetail";
+import PostForm from "./Components/PostForm";
 import { Post } from "./types";
 
 function App() {
