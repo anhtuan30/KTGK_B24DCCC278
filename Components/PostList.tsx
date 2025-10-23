@@ -1,4 +1,4 @@
-import { Post } from "../types";
+import { Post } from "../types/Post";
 import PostCard from "./PostCard";
 import { Link } from "react-router-dom";
 import { useState } from "react";
