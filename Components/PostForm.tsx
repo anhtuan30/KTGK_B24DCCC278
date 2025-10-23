@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Post } from "../types";
+import { Post } from "../types/Post";
 
 interface Props {
   posts: Post[];
