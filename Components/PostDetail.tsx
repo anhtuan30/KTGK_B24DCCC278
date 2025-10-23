@@ -1,5 +1,5 @@
 import { useNavigate, useParams, Link } from "react-router-dom";
-import { Post } from "../types";
+import { Post } from "../types/Post";
 
 interface Props {
   posts: Post[];
